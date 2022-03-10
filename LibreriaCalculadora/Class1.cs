@@ -65,5 +65,10 @@ namespace LibreriaCalculadora
             }
             return resultado;
         }
+
+        public static double porcentaje(double porciento, double porcentaje)
+        {
+            return (porcentaje * porciento) / 100;
+        }
     }
 }
