@@ -54,16 +54,24 @@ namespace LibreriaCalculadora
 
         public static double raizCuadrada(double numero)
         {
-            double resultado = 0;
-            for (double i = 1; true; i++)
+            double margen = 0.000001;
+            double estimacion = 1.0;
+            while (valorAbsoluto((estimacion * estimacion) - numero) >= margen)
             {
-                if ((i * i) > numero)
-                {
-                    resultado = i - 1;
-                    break;
-                }
+                double cociente = numero / estimacion;
+                double promedio = (cociente + estimacion) / 2.0;
+                //Console.WriteLine("estimacion " + estimacion + "cociente " + cociente + "promedio " + promedio);
+                estimacion = promedio;
             }
-            return resultado;
+            return estimacion;
+        }
+        private static double valorAbsoluto(double numero)
+        {
+            if (numero < 0)
+            {
+                return numero * -1;
+            }
+            return numero;
         }
 
         public static double porcentaje(double porciento, double porcentaje)
