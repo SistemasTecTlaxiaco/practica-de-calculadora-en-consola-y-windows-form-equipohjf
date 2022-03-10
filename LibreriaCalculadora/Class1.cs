@@ -70,5 +70,15 @@ namespace LibreriaCalculadora
         {
             return (porcentaje * porciento) / 100;
         }
+
+        public static double fraccion(double x)
+        {
+            return 1 / x;
+        }
+
+        public static double restar(double numero1, double numero2)
+        {
+            return numero1 - numero2;
+        }
     }
 }
