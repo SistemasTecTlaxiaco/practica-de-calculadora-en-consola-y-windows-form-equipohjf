@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaCalculadora
 {
-    public class Class1
+    public class Operaciones
     {
         public static double sumar(double uno, double dos)
         {

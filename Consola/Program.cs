@@ -35,35 +35,35 @@ namespace Consola
                     {
                         case 1:
                             teclado1();
-                            Console.WriteLine("El resultado de la suma es: " + Class1.sumar(num1, num2));
+                            Console.WriteLine("El resultado de la suma es: " + Operaciones.sumar(num1, num2));
                             break;
                         case 2:
                             teclado1();
-                            Console.WriteLine("El resultado de la Resta es: " + Class1.restar(num1, num2));
+                            Console.WriteLine("El resultado de la Resta es: " + Operaciones.restar(num1, num2));
                             break;
                         case 3:
                             teclado1();
-                            Console.WriteLine("El resultado de la Multiplicacion es: " + Class1.multiplicar(num1, num2));
+                            Console.WriteLine("El resultado de la Multiplicacion es: " + Operaciones.multiplicar(num1, num2));
                             break;
                         case 4:
                             teclado1();
-                            Console.WriteLine("El resultado de la Division es: " + Class1.division(num1, num2));
+                            Console.WriteLine("El resultado de la Division es: " + Operaciones.division(num1, num2));
                             break;
                         case 5:
                             teclado0();
-                            Console.WriteLine("El resultado de la Raiz cuadrada es: " + Class1.raizCuadrada(num0));
+                            Console.WriteLine("El resultado de la Raiz cuadrada es: " + Operaciones.raizCuadrada(num0));
                             break;
                         case 6:
                             teclado1();
-                            Console.WriteLine("El resultado de la Potencia es: " + Class1.potencia(num1, num2));
+                            Console.WriteLine("El resultado de la Potencia es: " + Operaciones.potencia(num1, num2));
                             break;
                         case 7:
                             teclado1();
-                            Console.WriteLine("El resultado del porcentaje es: " + Class1.porcentaje(num1, num2));
+                            Console.WriteLine("El resultado del porcentaje es: " + Operaciones.porcentaje(num1, num2));
                             break;
                         case 8:
                             teclado0();
-                            Console.WriteLine("El resultado de la fraccion es: " + Class1.fraccion(num0));
+                            Console.WriteLine("El resultado de la fraccion es: " + Operaciones.fraccion(num0));
                             break;
                         case 9:
                             Console.WriteLine("Has elegido salir de la aplicación");

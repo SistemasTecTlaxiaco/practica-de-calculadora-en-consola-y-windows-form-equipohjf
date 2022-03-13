@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace Calculadora.Properties
+namespace CalculadoraForm.Properties
 {
     /// <summary>
     ///   Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
@@ -43,7 +43,7 @@ namespace Calculadora.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Calculadora.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CalculadoraForm.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

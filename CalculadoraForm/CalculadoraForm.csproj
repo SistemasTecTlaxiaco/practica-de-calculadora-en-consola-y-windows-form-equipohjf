@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5A809E07-ADC9-466C-AFE3-1818DFE541B7}</ProjectGuid>
+    <ProjectGuid>{C225FF27-1DA5-444D-BEDF-A0B91E54B8CF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Calculadora</RootNamespace>
-    <AssemblyName>Calculadora</AssemblyName>
+    <RootNamespace>CalculadoraForm</RootNamespace>
+    <AssemblyName>CalculadoraForm</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LibreriaCalculadora">
+      <HintPath>..\LibreriaCalculadora\obj\Debug\LibreriaCalculadora.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
